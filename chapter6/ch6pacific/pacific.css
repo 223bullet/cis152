@@ -43,7 +43,7 @@ nav{
      h1,
       h2,
        h3, footer {
-        font-family: Georgia, "Times New Roman", Times, Baskerville, serif;
+        font-family: Georgia, "Times New Roman", serif;
      }
     h2{
         color: #1976d2; /* c#1976d2 */
