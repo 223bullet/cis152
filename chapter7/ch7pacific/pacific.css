@@ -96,6 +96,9 @@ h1{
     dt{
         color: #003;
     }
+    address {
+        font-style: normal; /* fsi */
+    }
     footer{
         background-color: #fff; /*bgc#fff */
         font-size: 75%; /* fz75% */
