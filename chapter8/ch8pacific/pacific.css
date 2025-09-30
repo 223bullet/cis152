@@ -181,7 +181,7 @@ footer {
   nav li {
     border-bottom: none; /* bb:none */
     padding: 0 1rem; /* p:0 1rem */
-    max-width: none; mw:none
+    max-width: none; /* mw:none */
   }
   .card-row {
     flex-direction: row; /* fd:row */
