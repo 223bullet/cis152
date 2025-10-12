@@ -405,7 +405,7 @@ label {
   input[type="submit"] {
     width: 100%; /* make button full width */
     margin-top: 0.5em; /* add spacing above button */
-  
+  }
 }
 @media (min-width: 37.5rem) {
   nav ul {
@@ -427,5 +427,4 @@ label {
     flex: 1 1 0; /* f:1 1 0 */
     max-width: 100%; /* mw:100% */
   }
-}
 }
