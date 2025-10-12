@@ -160,11 +160,13 @@ th {
   background-color: #1976d2; /* bgc:#1976d2 */
   color: #fff; /* c:#fff */
 }
-td, th {
+td, 
+th {
   border: 0.125rem solid #1976d2; /* bd:0125rem solid #1976d2 */
   padding: 0.5rem; /* p:0.5rem */
 }
-td { text-align: center; /* ta:center */ }
+td { 
+  text-align: center; /* ta:center */ }
 .text {
   text-align: left; /* ta:left */
 }
@@ -185,7 +187,8 @@ form {
 label {
   font-weight: 600; /* fwb */
   margin-bottom: 0.25em; 
-  color:#003;}
+  color:#003;
+}
 
   input, 
   textarea{ 
@@ -223,8 +226,9 @@ label {
     align-items: center; /* ai:center */
     justify-content: center; /* jc:center */
     text-align: center; /* ta:center */
-    margin: 1em 0; /* m:1em 0 */
     gap: 0.1em; /* g:0.1em */
+    margin: 1em 0; /* m:1em 0 */
+    
   }
   .center > h2,
   .center > h3,
@@ -351,7 +355,8 @@ label {
   #special table {
     margin: 0 auto;
   }
-  #special td, #special th {
+  #special td, 
+  #special th {
     display: block;
     width: 100%;  
   }
@@ -405,7 +410,7 @@ label {
   input[type="submit"] {
     width: 100%; /* make button full width */
     margin-top: 0.5em; /* add spacing above button */
-  
+  }
 }
 @media (min-width: 37.5rem) {
   nav ul {
@@ -427,5 +432,4 @@ label {
     flex: 1 1 0; /* f:1 1 0 */
     max-width: 100%; /* mw:100% */
   }
-}
 }
