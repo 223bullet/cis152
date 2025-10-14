@@ -43,6 +43,12 @@ nav ul {
   list-style-type: none; /* listn*/
   margin: 0; /* m0 */
   padding-left: 0; /* pl0 */
+  display: flex; /* d:flex */
+  flex-direction: column; /* fd:column */
+  align-items: stretch; /* ai:stretch */
+  max-width: 100%; /* mw:100% */
+  box-sizing: border-box; /* bxbb */
+  flex-wrap: wrap; /* fw:wrap */
 }
 
 nav li {
