@@ -68,6 +68,12 @@ nav ul {
   list-style-type: none; /* listn*/
   margin: 0; /* m0 */
   padding-left: 0; /* pl0 */
+  display: flex; /* d:flex */
+  flex-direction: column; /* fd:column */
+  align-items: stretch; /* ai:stretch */
+  max-width: 100%; /* mw:100% */
+  box-sizing: border-box; /* bxbb */
+  flex-wrap: wrap; /* fw:wrap */
 }
 
 nav li {
@@ -379,9 +385,9 @@ label {
     margin: 0; /* Remove body margin */ 
   }
   #wrapper {
-    width: 100%; /* Fill viewport width */
-    max-width: 100%; /* Remove max-width limit */
-    margin: 0; /* Remove auto margin for edge-to-edge */
+    width: 80%; /* w:80% */
+    max-width: 75rem; /* maxw:75rem */
+    margin: auto; /* ma:auto */
     padding: 0; /* Remove wrapper padding */
   }
   header {
